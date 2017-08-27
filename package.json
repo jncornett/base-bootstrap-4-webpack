@@ -1,7 +1,7 @@
 {
   "name": "base-bootstrap-for-webpack",
   "version": "1.0.0",
-  "description": "Base customized bootstrap-4 (for webpack use)",
+  "description": "Base no-fuss bootstrap-4 (for webpack use)",
   "author": "Joel Cornett <joel.cornett@gmail.com>",
   "license": "MIT",
   "main": "dist/base-bootstrap-for-webpack.js",
