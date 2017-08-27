@@ -6,9 +6,12 @@ const camelCase = require('camelcase');
 const pkg = require('./package.json');
 
 const config = {
-  // path.join(...) strips out the leading '.', which webpack requires.
-  // FIXME: this *might* break building on non-POSIX environments (e.g. Windows)
-  entry: `./${pkg.module}`,
+  entry: [
+    'jquery',
+    // path.join(...) strips out the leading '.', which webpack requires.
+    // FIXME: this *might* break building on non-POSIX environments (e.g. Windows)
+    `./${pkg.module}`
+  ],
   output: {
     filename: path.basename(pkg.main),
     path: path.resolve(__dirname, path.dirname(pkg.main)),
