@@ -7,7 +7,6 @@ const pkg = require('./package.json');
 
 const config = {
   entry: [
-    'jquery',
     // path.join(...) strips out the leading '.', which webpack requires.
     // FIXME: this *might* break building on non-POSIX environments (e.g. Windows)
     `./${pkg.module}`
