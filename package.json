@@ -9,6 +9,7 @@
   "scripts": {
     "clean": "rm -rf ./dist",
     "build": "webpack",
+    "dist": "npm run clean && webpack --env.production",
     "start": "webpack-dev-server"
   },
   "devDependencies": {
