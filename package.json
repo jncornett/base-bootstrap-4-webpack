@@ -1,0 +1,15 @@
+{
+  "name": "lofi-bootstrap-for-webpack",
+  "version": "1.0.0",
+  "description": "Lo-fi customized style based on bootstrap-4 (for webpack use)",
+  "author": "Joel Cornett <joel.cornett@gmail.com>",
+  "license": "MIT",
+  "main": "dist/lofi-bootstrap-for-webpack.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
+}
