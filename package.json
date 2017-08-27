@@ -1,10 +1,10 @@
 {
-  "name": "lofi-bootstrap-for-webpack",
+  "name": "base-bootstrap-for-webpack",
   "version": "1.0.0",
-  "description": "Lo-fi customized style based on bootstrap-4 (for webpack use)",
+  "description": "Base customized bootstrap-4 (for webpack use)",
   "author": "Joel Cornett <joel.cornett@gmail.com>",
   "license": "MIT",
-  "main": "dist/lofi-bootstrap-for-webpack.js",
+  "main": "dist/base-bootstrap-for-webpack.js",
   "module": "src/index.js",
   "scripts": {
     "clean": "rm -rf ./dist",
@@ -12,6 +12,7 @@
     "start": "webpack-dev-server"
   },
   "devDependencies": {
+    "camelcase": "^4.1.0",
     "css-loader": "^0.28.5",
     "html-webpack-plugin": "^2.30.1",
     "node-sass": "^4.5.3",
@@ -21,6 +22,8 @@
     "webpack-dev-server": "^2.7.1"
   },
   "dependencies": {
-    "bootstrap": "v4.0.0-beta"
+    "bootstrap": "v4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.3"
   }
 }
